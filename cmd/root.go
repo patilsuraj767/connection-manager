@@ -22,8 +22,7 @@ var rootCmd = &cobra.Command{
 	Long: `Connection-manager is the CLI tool for managing ssh connections.
 	It help in storing the servers ipaddress/hostname, username and password, 
 	so that you can ssh the system in just one click.`,
-	// Uncomment the following line if your bare application
-	// has an action associated with it:
+
 	Run: func(cmd *cobra.Command, args []string) {
 		servers := config.GetAllServers()
 		prompt := promptui.Select{

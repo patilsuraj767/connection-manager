@@ -1,6 +1,6 @@
 # Connection-manager
 
-Connection-manager is the CLI tool build in Golang for managing ssh connection. It helps in storing the servers ipaddress/hostname, username and password so that we can ssh the system in just one click.
+Connection-manager is the CLI tool build in Golang for managing ssh connection. It helps in storing the server's ipaddress/hostname, username and password so that we can ssh the server in just one click.
 
 ## Installation
 
@@ -38,15 +38,15 @@ Use "connection-manager [command] --help" for more information about a command.
 ## Screen 
 
 #### # connection-manager
-connection-manager command will promote the list of servers to which one can ssh. After pressing enter it ssh's the server + server name gets copied to the clipboard 
+connection-manager command will promote the list of servers. After pressing enter it opens the ssh connection to the server. 
 
-![Alt text](images/connection-manager-img.gif)
+![Alt text](images/img-connection-manager.gif)
 
 
 #### # connection-manager add
-Using connection-manager add command we can add our servers in connection-manager
+Use connection-manager add command to add SSH connection in connection-manager
 
-![Alt text](images/connection-manager-add-img.gif)
+![Alt text](images/img-connection-manager-add.gif)
 
 
 ## Contributing
