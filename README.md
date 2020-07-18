@@ -40,13 +40,13 @@ Use "connection-manager [command] --help" for more information about a command.
 #### # connection-manager
 connection-manager command will promote the list of servers to which one can ssh. After pressing enter it ssh's the server + server name gets copied to the clipboard 
 
-![Alt text](images/connection-manager.gif)
+![Alt text](images/connection-manager-img.gif)
 
 
 #### # connection-manager add
 Using connection-manager add command we can add our servers in connection-manager
 
-![Alt text](images/connection-manager-add.gif)
+![Alt text](images/connection-manager-add-img.gif)
 
 
 ## Contributing
